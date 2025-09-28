@@ -1,42 +1,56 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#container{
+    flex-direction: column;
+    align-items: center ;
+    display: flex;   
+    max-width: 100%;
+    max-height: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#content-title{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+        padding-left: 675px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.movie-content{
+    padding: 1px;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
 }
 
-.card {
-  padding: 2em;
+.movie-info{
+    font-size: .875rem;
+    display: flex;
+    gap: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+
+.rate{
+    padding: 0 5px;
+    background-color: green;
 }
+
+.sinopse{
+    font-size: 16px;
+}
+
+header{
+    color: black;
+    background-color: #d5e0f6;
+    padding-inline: 47%;
+    font-size: 20px;
+}
+
+
+
+
